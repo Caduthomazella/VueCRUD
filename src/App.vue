@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <list-tasks></list-tasks>
+    <div class="container">
+      <div class="notification">
+        <list-tasks></list-tasks>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -9,6 +13,7 @@ import ListTasks from './components/Tasks/ListTasks'
 
 export default {
   name: 'app',
+
   components: {
     ListTasks
   }
