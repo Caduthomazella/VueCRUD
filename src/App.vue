@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
-      <div class="notification">
-        <list-tasks></list-tasks>
-      </div>
+      <list-tasks></list-tasks>
     </div>
   </div>
 </template>
